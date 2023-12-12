@@ -1,0 +1,32 @@
+.gridsClass {
+    display: flex;
+    flex: 1 0 auto;
+    max-height: 20px;
+    
+    
+
+
+}
+
+.gridsItemClass {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    flex: 1;
+}
+
+.hoverClass {
+    background-color: blue;
+}
+
+.gridsDivClass {
+    background-color: burlywood;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
